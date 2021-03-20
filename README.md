@@ -6,4 +6,6 @@ Hyperspeed Recap on C, UNIX, Git
 
 ## [UNIX](UNIX/README.md)
 
+## [Shell](Shell/Readme.md)
+
 ## [Git](GIT/README.md)
