@@ -6,6 +6,7 @@
 2. [Shell](#Shell)
 3. [Bash & zsh](#Bash-&-zsh)
 4. [Shell Script](#Shell-Script)
+5. [Shell Script 작성하기](#Shell-Script-작성하기)
 
 ## Kernel
 
@@ -32,7 +33,7 @@
 - 쉘을 이용하여 명령을 실행시킬 수 있는데, 이 명령이 한 줄이 아니라 여러 줄로 이루어져 있을 경우에 명령을 순서대로 실행시키기 위한 각본을 **shell script** 라 한다
 - 쉘 스크립트를 사용하면 여러 줄의 복잡한 명령을 언제나 재사용이 가능하기 때문에 편리하다
 
-### Shell Script 작성하기
+## Shell Script 작성하기
 
 - 파일의 맨 앞은 **!/bin/bash** 라고 작성
 
