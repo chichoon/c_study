@@ -2,6 +2,11 @@
 
 ### 목차
 
+1. [Kernel](#Kernel)
+2. [Shell](#Shell)
+3. [Bash & zsh](#Bash-&-zsh)
+4. [Shell Script](#Shell-Script)
+
 ## Kernel
 
 - 프로그램을 동작시키는 것은 특정 명령으로 하드웨어를 작동시키는 방식
