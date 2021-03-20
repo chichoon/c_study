@@ -1,12 +1,5 @@
 # IO Redirection
 
-### 목차
-
-1. [Standard Output redirection](#Standard-Output-redirection)
-2. [Standard Error redirection](#Standard-Error-redirection)
-3. [Standard Input redirection](#Standard-Input-redirection)
-4. [/dev/null](#/dev/null)
-
 ## Standard Output redirection
 
 - 명령어 입력 후 결과물을 파일로 저장하고 싶을 때 (예를 들면 폴더목록 등) 사용
