@@ -29,4 +29,9 @@
 
 ### Shell Script 작성하기
 
--
+- 파일의 맨 앞은 **!/bin/bash** 라고 작성
+
+  - 해당 코드가 무슨 shell 프로그램을 이용하여 실행되는지 명시하는 것
+  - /bin/bash는 bash를 이용해 shell을 실행시킬 것이란 의미
+
+- [Shell Script 문법](shell_command.md)
