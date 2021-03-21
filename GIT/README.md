@@ -53,9 +53,7 @@
   - 모든 소스가 저장된 장소 = **저장소**
 - 특정 디렉토리를 VCS의 repository로 설정할 경우, 해당 repository에서 이루어진 **모든 변화를 기록**할 수 있다
 
-## 초기 설정
-
-- [초기 설정](1-initialize.md)
+## [초기 설정](1-initialize.md)
 
 ## Commit
 
