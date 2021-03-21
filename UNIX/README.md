@@ -12,6 +12,7 @@
 8. [UNIX 파일 에디터](#UNIX-파일-에디터)
 9. [파이프라인](#파이프라인)
 10. [IO redirection](#IO-redirection)
+11. [디렉토리의 구조](#디렉토리의-구조)
 
 ## UNIX
 
@@ -143,3 +144,5 @@
 - 통상적으로 출력되어야 할 형태를 방향을 바꿔서 다른 방법으로 출력시킬 때 Redirection이라 한다
 
 ### [IO redirection 종류](ioredir.md)
+
+## 디렉토리의 구조
