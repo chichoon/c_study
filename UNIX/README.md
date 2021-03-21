@@ -145,4 +145,4 @@
 
 ### [IO redirection 종류](ioredir.md)
 
-## 디렉토리의 구조
+## [디렉토리의 구조](dir_str.md)
