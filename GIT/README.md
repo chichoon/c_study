@@ -7,9 +7,9 @@
 
 ### ✔ CLI 명령어 확인하기
 
-1. [초기 설정](1-initialize.md)
-2. [Commit 과정](2-commit.md)
-3. [원격 저장소와 연동](3-remote.md)
+1. [초기 설정](1-initialize/1-initialize.md)
+2. [Commit 과정](2-commit/2-commit.md)
+3. [원격 저장소와 연동](3-remote/3-remote.md)
 
 ### 목차
 
