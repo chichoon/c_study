@@ -9,6 +9,8 @@
 
 1. [C언어 #1 변수](1/README.md)
 2. [C언어 #2 연산자](2/README.md)
+3. [C언어 #3 문자와 문자 입출력](3/README.md)
+4. [C언어 #4 If/Else 구문](4/README.md)
 
 ## C
 
