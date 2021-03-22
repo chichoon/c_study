@@ -1,15 +1,19 @@
 #include <stdio.h>
 int main(void){
     printf("--------------\n");
-    int num;
-    printf("Input any number : ");
-    scanf("%d", &num);
-    if (num < 9) { //입력한 숫자가 9보다 작을 경우
-        printf("%d is less than 9", num); 
-    } else if (num >= 9 && num < 18) { //입력한 숫자가 9 이상 18 미만일 경우
-        printf("%d is bigger or same with 9", num);
-    } else { //그 외: 입력한 숫자가 18 이상일 때
-        printf("%d is bigger or same with 18", num);
+    for (int i = 0; i < 50; i++){ //i는 0부터 50 미만까지 총 50회 반복
+    //i = 49까지만 작동하고 i = 50일 땐 조건 불만족으로 탈출
+        printf("Now i is : %d\n", i); //i의 값이 50번 출력
     }
-    return 0;
+    printf("--------------\n");
+    int a = 0;
+    while (1){
+        printf("You can escape when put 5 : ");
+        scanf("%d", &a);
+        if (a == 5){ //입력받은 값이 5이면 종료
+            break;
+        }
+        else {printf("your input : %d\n", a);}
+        //입력받은 값이 5가 아니면 값 출력 후 반복
+    }
 }
