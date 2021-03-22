@@ -11,6 +11,7 @@
 2. [C언어 #2 연산자](2/README.md)
 3. [C언어 #3 문자와 문자 입출력](3/README.md)
 4. [C언어 #4 If/Else 구문](4/README.md)
+5. [C언어 #5 for, while 구문](5/README.md)
 
 ## C
 
