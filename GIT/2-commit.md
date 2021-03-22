@@ -38,4 +38,23 @@
 - ![commit3](2-commit3.png)
 - 코멘트 작성이 완료되면 자동으로 변경사항을 commit하고, 그 결과가 콘솔에 표시됨
 
-## git commit -m
+## git commit -m "[코멘트]"
+
+- commit message를 별도의 text editor에서 열지 않고, 명령어로 바로 넘겨주는 방법
+- ![commit4](2-commit4.png)
+- -m 패러미터 뒤에 코멘트를 "" (큰따옴표) 로 감싸주어 입력한다
+- 결과는 위의 git commit과 같은 대신, text editor에서 편집하지 않고 쉽게 message 작성이 가능함
+
+## git log
+
+- 현재 Repository의 변경 이력을 보여줌
+  - 처음엔 가장 최근 commit부터 3~4개정도만 보여주지만, 엔터치다 보면 끝도없이 나옴;
+  - **q**를 누르면 log 명령어에서 탈출할 수 있다
+- ![log](2-log.png)
+- **commit [어쩌구저쩌구 코드]**
+  - Commit의 이름
+- **Author: [사용자명] <[이메일]>**
+  - Commit을 작성한 사용자의 이름과 이메일
+- **Date: [시간]**
+  - Commit을 작성한 시간
+- Date 아래에는 **Commit 시에 작성한 코멘트**들이 보여짐
