@@ -7,9 +7,10 @@
 
 ### ✔ CLI 명령어 확인하기
 
-1. [초기 설정](1-initialize/1-initialize.md)
-2. [Commit 과정](2-commit/2-commit.md)
-3. [원격 저장소와 연동](3-remote/3-remote.md)
+1. [초기 설정](1-initialize/README.md)
+2. [Commit 과정](2-commit/README.md)
+3. [원격 저장소와 연동](3-remote/README.md)
+4. [Commit 수정](4-modify/README.md)
 
 ### 목차
 
@@ -121,6 +122,8 @@
 ### fetch
 
 - 원격 저장소의 내용을 확인만 하고 로컬로 병합하고 싶지 않을 때 사용
+  - 보통 내가 작업하는 동안 다른 사람이 원격 저장소에 push하는 바람에 history 충돌이 생길 경우 push가 안 되기 때문에 fetch를 이용해서 원격 저장소의 변경점들을 체크하는 데 사용한다
+  - **git diff [브랜치명]** 을 통해 충돌점을 찾을 수 있고 이를 이용하여 수정하면 된다
 - fetch시에 원격 저장소의 내용은 로컬에서 이름 없는 브랜치로 저장되고, git checkout **FETCH_HEAD** 를 통해 별도의 브랜치로 저장할 수 있음
 - 확인이 끝난 후 원격 저장소의 내용을 로컬 저장소와 통합하고자 할 땐 **FETCH_HEAD** 브랜치와 main 브랜치를 merge하면 된다
 - Pull이 **fetch**와 **merge**를 하나로 합친 기능과 같음
