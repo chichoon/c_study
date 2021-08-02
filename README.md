@@ -1,6 +1,6 @@
 # recap_c
 
-Hyperspeed Recap on C, UNIX, Git
+Hyper-speed Recap on C, UNIX, Git
 
 ## [C Language](C/README.md)
 
