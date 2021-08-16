@@ -1,6 +1,6 @@
 # recap_c
 
-Hyper-speed Recap on C, UNIX, Git
+피씬 시작 전 빠른 복습
 
 ## [C Language](C/README.md)
 
